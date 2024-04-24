@@ -1,0 +1,500 @@
+[
+  {
+    "idEP": "CO-60219",
+    "estado": "approved",
+    "fechaCreada": "2024-04-23T18:01:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "leonor",
+    "mail": "biblioteca@colegiosagradafamiliasanjose.edu.uy",
+    "DNI": null,
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-23T18:01:00.000Z",
+        "fechaEntrega": "2024-04-23T18:01:00.000Z",
+        "tipoEnvio": "CO - RECOLETA",
+        "shipCost": 0,
+        "nombreEnvio": "CO - RECOLETA",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-23T18:01:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Efectivo",
+        "tipoPago": "Efectivo",
+        "moneda": "ARS",
+        "cuentaDestino": "coshowroom"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-60118",
+    "estado": "approved",
+    "fechaCreada": "2024-04-22T11:23:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "mariana",
+    "mail": "marianap.laspe@hotmail.com",
+    "DNI": null,
+    "telefono": "",
+    "montoTotal": 22000,
+    "Products": [
+      {
+        "producto": "Journal Anillado",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 22000,
+        "precioTotal": 22000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-22T11:23:00.000Z",
+        "fechaEntrega": "2024-04-22T11:23:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-22T11:23:00.000Z",
+        "montoPago": 22000,
+        "montoRecibido": 22000,
+        "montoTotal": 22000,
+        "metodoPago": "Efectivo",
+        "tipoPago": "Efectivo",
+        "moneda": "ARS",
+        "cuentaDestino": "coshowroom"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-60109",
+    "estado": "approved",
+    "fechaCreada": "2024-04-21T18:59:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "maite",
+    "mail": "maitesoledad74@gmail.com",
+    "DNI": "42537344",
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-21T18:59:00.000Z",
+        "fechaEntrega": "2024-04-21T18:59:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-21T18:59:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "master",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59984",
+    "estado": "approved",
+    "fechaCreada": "2024-04-20T13:37:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "antonella",
+    "mail": "anto.lagamba@hotmmail.com",
+    "DNI": null,
+    "telefono": "",
+    "montoTotal": 22000,
+    "Products": [
+      {
+        "producto": "Journal Anillado",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 22000,
+        "precioTotal": 22000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-20T13:37:00.000Z",
+        "fechaEntrega": "2024-04-20T13:37:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-20T13:37:00.000Z",
+        "montoPago": 22000,
+        "montoRecibido": 22000,
+        "montoTotal": 22000,
+        "metodoPago": "Efectivo",
+        "tipoPago": "Efectivo",
+        "moneda": "ARS",
+        "cuentaDestino": "coshowroom"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59943",
+    "estado": "approved",
+    "fechaCreada": "2024-04-20T11:23:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "carlos salomon",
+    "mail": "drzagludl@yahoo.com.ar",
+    "DNI": "12094404",
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-20T11:23:00.000Z",
+        "fechaEntrega": "2024-04-20T11:23:00.000Z",
+        "tipoEnvio": "CO - RECOLETA",
+        "shipCost": 0,
+        "nombreEnvio": "CO - RECOLETA",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-20T11:23:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "visa",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59929",
+    "estado": "approved",
+    "fechaCreada": "2024-04-19T19:55:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "martina garcia ",
+    "mail": "martugarciaberro@gmail.com",
+    "DNI": "40011143",
+    "telefono": "",
+    "montoTotal": 23000,
+    "Products": [
+      {
+        "producto": "Destapados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 23000,
+        "precioTotal": 23000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-19T19:55:00.000Z",
+        "fechaEntrega": "2024-04-19T19:55:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-19T19:55:00.000Z",
+        "montoPago": 23000,
+        "montoRecibido": 23000,
+        "montoTotal": 23000,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "visa",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59630",
+    "estado": "approved",
+    "fechaCreada": "2024-04-17T12:06:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "silvia",
+    "mail": "coronadoale7@gmail.com",
+    "DNI": null,
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-17T12:06:00.000Z",
+        "fechaEntrega": "2024-04-17T12:06:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-17T12:06:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Efectivo",
+        "tipoPago": "Efectivo",
+        "moneda": "ARS",
+        "cuentaDestino": "coshowroom"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59599",
+    "estado": "approved",
+    "fechaCreada": "2024-04-16T17:10:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "maria florencia gonzalez salazar",
+    "mail": "florenciags95@gmail.com",
+    "DNI": "38743676",
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-16T17:10:00.000Z",
+        "fechaEntrega": "2024-04-16T17:10:00.000Z",
+        "tipoEnvio": "CO - RECOLETA",
+        "shipCost": 0,
+        "nombreEnvio": "CO - RECOLETA",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-16T17:10:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "visa",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59499",
+    "estado": "approved",
+    "fechaCreada": "2024-04-14T17:58:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "gustavo andres",
+    "mail": "patriciaerhardt1@gmail.com",
+    "DNI": "22778235",
+    "telefono": "",
+    "montoTotal": 48500,
+    "Products": [
+      {
+        "producto": "Journal Sin Anillar",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 23500,
+        "precioTotal": 23500,
+        "moneda": "ARS"
+      },
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-14T17:58:00.000Z",
+        "fechaEntrega": "2024-04-14T17:58:00.000Z",
+        "tipoEnvio": "CO - DOT",
+        "shipCost": 0,
+        "nombreEnvio": "CO - DOT",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-14T17:58:00.000Z",
+        "montoPago": 48500,
+        "montoRecibido": 48500,
+        "montoTotal": 48500,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "visa",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  },
+  {
+    "idEP": "CO-59250",
+    "estado": "approved",
+    "fechaCreada": "2024-04-12T11:53:00.000Z",
+    "canalVenta": "coshowroom",
+    "nombre": "lucia torino",
+    "mail": "lucia.torino@yahoo.com",
+    "DNI": "33753310",
+    "telefono": "",
+    "montoTotal": 25000,
+    "Products": [
+      {
+        "producto": "Desconectados",
+        "cantidad": 1,
+        "variante": null,
+        "precioUnitario": 25000,
+        "precioTotal": 25000,
+        "moneda": "ARS"
+      }
+    ],
+    "Shipment": [
+      {
+        "estado": "Enviado",
+        "fechaEnvio": "2024-04-12T11:53:00.000Z",
+        "fechaEntrega": "2024-04-12T11:53:00.000Z",
+        "tipoEnvio": "CO - RECOLETA",
+        "shipCost": 0,
+        "nombreEnvio": "CO - RECOLETA",
+        "codigoPostal": "",
+        "ciudad": "",
+        "provincia": "CABA",
+        "pais": "Argentina",
+        "stockDesde": "coshowroom"
+      }
+    ],
+    "Payments": [
+      {
+        "estado": "approved",
+        "fechaPago": "2024-04-12T11:53:00.000Z",
+        "montoPago": 25000,
+        "montoRecibido": 25000,
+        "montoTotal": 25000,
+        "metodoPago": "Mercado Pago",
+        "tipoPago": "visa",
+        "moneda": "ARS",
+        "cuentaDestino": "Mercado Pago"
+      }
+    ]
+  }
+]
