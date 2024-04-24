@@ -1,3 +1,3 @@
-import mainCoShowroom from './src/CoShowroom'
+import mainCoShowroom from './src/CoShowroom.js'
 
 await mainCoShowroom()
