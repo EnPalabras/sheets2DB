@@ -189,7 +189,7 @@ const mainCoShowroom = async () => {
 
   for (const order of transformedData) {
     console.log(order.idEP)
-    const res = await fetch('http://localhost:3001/api/sales/others', {
+    const res = await fetch('https://systemep.vercel.app/api/sales/others', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
