@@ -1,9 +1,10 @@
-name: CoShowroom Sales
+name: CoShowroom & Regalos Sales
 
 env:
   GOOGLE_SHEET_ID_COSHOWROOM: ${{ secrets.GOOGLE_SHEET_ID_COSHOWROOM }}
   GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
   GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+  GOOGLE_SHEET_ID_REGALOS: ${{ secrets.GOOGLE_SHEET_ID_REGALOS }}
 
 on:
   workflow_dispatch:
