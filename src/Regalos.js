@@ -77,7 +77,7 @@ const transformOrders = (orders) => {
       editedOrder['nombre'] = order['nombre_completo']
       editedOrder['mail'] = order['mail']
       editedOrder['DNI'] = order['dni']
-      editedOrder['telefono'] = ''
+      editedOrder['telefono'] = order['telefono']
       editedOrder['montoTotal'] = order['ingresos_brutos']
         ? parseFloat(
             order['ingresos_brutos']
