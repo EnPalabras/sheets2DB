@@ -49,7 +49,7 @@ const transformOrders = (orders) => {
       editedOrder['Products'].push({
         producto: order['producto'],
         cantidad: parseInt(order['cantidad_juegos']),
-        variante: null,
+        variante: order['producto'],
         precioUnitario:
           parseFloat(
             order['precio_unit_prod']
@@ -90,7 +90,7 @@ const transformOrders = (orders) => {
       editedOrder['Products'].push({
         producto: order['producto'],
         cantidad: parseInt(order['cantidad_juegos']),
-        variante: null,
+        variante: order['producto'],
         precioUnitario:
           parseFloat(
             order['precio_unit_prod']
