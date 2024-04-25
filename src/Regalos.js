@@ -73,7 +73,6 @@ const transformOrders = (orders) => {
       editedOrder['estado'] = 'Finalizada'
       editedOrder['fechaCreada'] = fechaOrden
       editedOrder['canalVenta'] = order['canal_venta']
-      console.log(order['canal_venta'])
       editedOrder['nombre'] = order['nombre_completo']
       editedOrder['mail'] = order['mail']
       editedOrder['DNI'] = order['dni']
@@ -183,8 +182,8 @@ const mainRegalos = async () => {
 
   for (const order of transformedData) {
     console.log(order.idEP)
-    // const res = await fetch('https://systemep.vercel.app/api/sales/others', {
-    const res = await fetch('http://localhost:3001/api/sales/others', {
+    const res = await fetch('https://systemep.vercel.app/api/sales/others', {
+      // const res = await fetch('http://localhost:3001/api/sales/others', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
