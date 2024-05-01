@@ -33,9 +33,8 @@ const transformOrders = (orders) => {
 
   orders.map((order) => {
     const editedOrder = {}
-
     const fechaOrden =
-      order['hora_compra'] !== null
+      order['Hora'] !== null
         ? new Date(
             order['Fecha'].split('/')[2],
             order['Fecha'].split('/')[1] - 1,
@@ -198,6 +197,9 @@ const mainCoShowroom = async () => {
     })
 
     const data = await res.json()
+    if (data.data.code === 500) {
+      return
+    }
   }
 }
 

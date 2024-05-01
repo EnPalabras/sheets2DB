@@ -192,6 +192,9 @@ const mainRegalos = async () => {
     })
 
     const data = await res.json()
+    if (data.data.code === 500) {
+      return
+    }
   }
 }
 
