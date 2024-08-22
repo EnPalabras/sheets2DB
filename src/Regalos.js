@@ -53,6 +53,7 @@ const transformOrders = (orders) => {
         precioUnitario:
           parseFloat(
             order['precio_unit_prod']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -69,6 +70,7 @@ const transformOrders = (orders) => {
     } else if (
       !editedOrders.map((order) => order['idEP']).includes(order['id_orden'])
     ) {
+      console.log(order['id_orden'])
       editedOrder['idEP'] = order['id_orden']
       editedOrder['estado'] = 'Finalizada'
       editedOrder['fechaCreada'] = fechaOrden
@@ -94,6 +96,7 @@ const transformOrders = (orders) => {
         precioUnitario:
           parseFloat(
             order['precio_unit_prod']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -101,6 +104,7 @@ const transformOrders = (orders) => {
         precioTotal:
           (parseFloat(
             order['precio_total_prod']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -138,6 +142,7 @@ const transformOrders = (orders) => {
         montoPago:
           parseFloat(
             order['ingresos_brutos']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -145,6 +150,7 @@ const transformOrders = (orders) => {
         montoRecibido:
           parseFloat(
             order['ingresos_netos']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -152,6 +158,7 @@ const transformOrders = (orders) => {
         montoTotal:
           parseFloat(
             order['ingresos_brutos']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -159,6 +166,7 @@ const transformOrders = (orders) => {
         montoRecibido:
           parseFloat(
             order['ingresos_netos']
+
               .replace('$', '')
               .replace('.', '')
               .replace(',', '.')
@@ -180,10 +188,10 @@ const mainRegalos = async () => {
   const data = await readDataRegalos()
   const transformedData = transformOrders(data)
 
-  for (const order of transformedData) {
-    console.log(order.idEP)
+  transformedData.map(async (order) => {
+    console.log(order)
+
     const res = await fetch('https://systemep.vercel.app/api/sales/others', {
-      // const res = await fetch('http://localhost:3001/api/sales/others', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -192,10 +200,11 @@ const mainRegalos = async () => {
     })
 
     const data = await res.json()
+    console.log(data.data)
     if (data.data.code === 500) {
       return
     }
-  }
+  })
 }
 
 export default mainRegalos
